@@ -1,0 +1,99 @@
+*{
+	font-family: 'Nunito';
+	font-weight: bold;
+	box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("../img/attraction2.jpg");
+	background-repeat: no-repeat;
+}
+a{color: lightgrey;text-decoration: none}
+a:hover{color: white;}
+hr{
+	margin: 50px 0;
+}
+.titre h1{
+	color: white;
+	margin: 30px 100px;
+	font-size:50px;
+}
+/*prisé*/
+.prise{
+	background-color: white;
+	padding: 20px 100px;
+}
+.prise .photos{
+	display: flex;
+	justify-content: space-between;
+}
+.prise .destPrise{
+	width:32.5%;
+	height: 200px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	top: 0;
+	transition: 0.4s;
+}
+.prise .destPrise:hover{position: relative;top:-15px;}
+.prise .destPrise h1{margin:50px auto 0;}
+.prise .destPrise p,i{font-size: 16px;margin:0 auto;}
+.prise .destPrise.prise1{background-image: url("../img/prise1.jpg");background-size: cover;}
+.prise .destPrise.prise2{background-image: url("../img/prise2.jpg");background-size: cover;}
+.prise .destPrise.prise3{background-image: url("../img/prise3.jpg");background-size: cover;}
+/*les autres images*/
+.prise .destPrise.destination1{background-image: url("../img/destination1.jpg");background-size: cover;}
+.prise .destPrise.destination2{background-image: url("../img/destination2.jpg");background-size: cover;}
+.prise .destPrise.destination3{background-image: url("../img/destination3.jpg");background-size: cover;}
+/**/
+/*paragraphs*/
+.main{
+	background-color: white;
+	margin: auto 100px;
+
+}
+.paragraphs{
+	display: flex;
+	justify-content: space-between;
+}
+.paragraph{overflow: hidden;width: 32.5%;}
+.paragraph i{float: left;}
+.paragraph h3{float: left;margin: 5px 0 5px 20px;}
+.paragraph p{margin: 10px 0;float: left;}
+/*header*/
+.header{
+	display: flex;
+	background-color: 	#008B8B;
+}
+.header h1{
+	color: white;
+	margin-left: 60px;
+}
+.header ul{
+	list-style: none;
+	margin: 40px 0 0 210px;
+}
+.header ul li{
+	float: left;
+	margin: 20px;
+	color: lightgrey;
+	cursor: pointer;
+}
+.header ul li i{
+	margin-right: 5px; 
+	cursor: pointer;
+}
+.header ul li:hover,.header ul li i:hover{
+	color: white;
+}
+/*copyright*/
+.copyright{
+	text-align: center;
+	color: white;
+	background-color: #008B8B;
+	padding: 30px;
+}
+.copyright p {margin: 0;}

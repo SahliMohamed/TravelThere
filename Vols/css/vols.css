@@ -1,0 +1,102 @@
+a{color: lightgrey;text-decoration: none}
+a:hover{color: white;}
+*{
+	font-family: 'Nunito';
+	font-weight: bold;
+	box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/travel2.jpg"); 
+	background-size: cover;
+}
+input[type="date"]:before {
+  color: lightgrey;
+  content: attr(placeholder) !important;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before {
+  content: '' !important;
+}
+select,option{color: gray}
+h1,p{text-align: center;color: white;}
+	/*header*/
+
+.header{
+	display: flex;
+	background-color: 	#008B8B;
+}
+.header h1{
+	color: white;
+	margin-left: 60px;
+}
+.header ul{
+	list-style: none;
+	margin: 40px 0 0 210px;
+}
+.header ul li{
+	float: left;
+	margin: 20px;
+	color: lightgrey;
+	cursor: pointer;
+}
+.header ul li i{
+	margin-right: 5px; 
+	cursor: pointer;
+}
+.header ul li:hover,.header ul li i:hover{
+	color: white;
+}
+ .booking {
+	width: 80%;
+	margin: 50px auto 170px;
+	box-shadow: -5px 5px 13px #b5b5b5;
+	padding: 30px 30px 30px 110px;
+	border-radius: 15px;
+	background: rgba(255,255,255,.8);
+}
+.booking input[type="text"]{
+	width: 20%;
+	height: 40px;
+	margin:auto;
+}
+.booking input,select{
+	width: 20%;
+	height: 40px;
+	padding-left: 10px;
+	margin: 20px 19px 0 0;
+	border: .1px solid #d2d2d2;
+    border-radius: 5px;
+}
+.booking input[type="date"]{color: gray}
+.booking button{
+	color: white;
+    width: 9%;
+    height: 27px;
+    border-radius: 5px;
+    background: #008b8b;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.booking input[placeholder="Vers"]{margin-right: 20px}
+.booking input[placeholder="Nombres d'enfants"]{margin-right: 21px;}
+.booking button.hovr:hover{background: lightblue }
+.booking button.multi{width: 12%}
+.booking button.valider{
+	width:20%;
+	height:40px;
+	font-size:20px; 
+	position: relative;
+	top: 55px;
+    right: 325px; 
+}
+/*copyright*/
+.copyright{
+	text-align: center;
+	color: white;
+	background-color: #008B8B;
+	padding: 30px;
+}
+.copyright p {margin: 0;}

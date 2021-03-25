@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TravelThere</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="../fontawesome/fontawesome/fontawesome-free-5.9.0-web/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+		<h1>TravelThere</h1>
+		<ul>
+			<li><a href="../sejours/sejours.html"><i class="fas fa-hotel"></i>Séjours</a></li>
+			<li><a href="../vols/vols.html"><i class="fas fa-plane"></i>Vols</a></li>
+			<li><a href="../attractions/attractions.html"><i class="fas fa-hiking"></i>Attractions</a></li>
+			<li><i class="fas fa-car"></i>Location Voiture</li>
+			<li><a href="../contact/contact.html"><i class="fas fa-envelope-open-text"></i>Contact</a></li>
+		</ul>
+	</div>
+	
+		<div class="login">
+			<p>Adresse e-mail</p>
+			<input type="email" id="adresse" placeholder="Tapez votre adresse email">
+			<p>Mot de passe</p>
+			<input type="password" id="mdp" placeholder="Tapez votre mot de passe">
+			<input type="submit" value="Valider" onclick="verifierAdresse();verifierMdp();envoyer();">
+			<hr>
+			<span>ou connectez-vous en un clic</span><br>
+			<i class="fab fa-facebook-square fa-2x"></i>
+			<i class="fab fa-google fa-2x"></i>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Tous droits réservés.<br>
+		Copyright &copy; (2006 - 2020) - TravelThere.com™</p>
+	</div>
+	<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>
